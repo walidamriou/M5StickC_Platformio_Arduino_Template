@@ -1,9 +1,15 @@
 #include <Arduino.h>
+#include <M5StickC.h>
 
-void setup() {
-  // put your setup code here, to run once:
+// the setup routine runs once when M5StickC starts up
+void setup(){
+  // Initialize the M5StickC object
+  M5.begin();
+
+  // LCD display
+  M5.Lcd.print("Hello World");
 }
 
+// the loop routine runs over and over again forever
 void loop() {
-  // put your main code here, to run repeatedly:
 }
