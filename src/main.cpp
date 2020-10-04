@@ -1,3 +1,15 @@
+/*
+ ********************************************************************
+  M5StickC_Platformio_Arduino_Template
+  Project template to start programming M5StickC ESP32 with PlatformIO IDE and Arduino
+  
+  Github: https://github.com/walidamriou/M5StickC_Platformio_Arduino_Template/
+  
+  Copyright © 2020 Walid Amriou
+  Last update: October 2020
+ ********************************************************************
+*/
+
 #include <Arduino.h>
 #include <M5StickC.h>
 
